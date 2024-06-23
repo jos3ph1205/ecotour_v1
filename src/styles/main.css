@@ -3,31 +3,31 @@ FONTS
 -------------------------------------------------- */
 @font-face {
    font-family: "AbhayaLibre";
-   src: url("public/assets/fonts/abhaya-libre/AbhayaLibre-Regular.ttf") format("truetype");
+   src: url("../../public/assets/fonts/abhaya-libre/AbhayaLibre-Regular.ttf") format("truetype");
    font-weight: 500;
    font-style: normal;
 }
 @font-face {
    font-family: "AbhayaLibre";
-   src: url("public/assets/fonts/abhaya-libre/AbhayaLibre-Medium.ttf") format("truetype");
+   src: url("../../public/assets/fonts/abhaya-libre/AbhayaLibre-Medium.ttf") format("truetype");
    font-weight: 600;
    font-style: normal;
 }
 @font-face {
    font-family: "AbhayaLibre";
-   src: url("public/assets/fonts/abhaya-libre/AbhayaLibre-Bold.ttf") format("truetype");
+   src: url("../../public/assets/fonts/abhaya-libre/AbhayaLibre-Bold.ttf") format("truetype");
    font-weight: 700;
    font-style: normal;
 }
 @font-face {
    font-family: "AbhayaLibre";
-   src: url("public/assets/fonts/abhaya-libre/AbhayaLibre-ExtraBold.ttf") format("truetype");
+   src: url("../../public/assets/fonts/abhaya-libre/AbhayaLibre-ExtraBold.ttf") format("truetype");
    font-weight: 900;
    font-style: normal;
 }
 @font-face {
    font-family: "OpenSans";
-   src: url("public/assets/fonts/OpenSans-VariableFont_wght.ttf") format("truetype");
+   src: url("../../public/assets/fonts/OpenSans-VariableFont_wght.ttf") format("truetype");
 }
 
 /* --------------------------------------------------
@@ -189,7 +189,7 @@ section::before {
    content: "";
    position: absolute;
    inset: 0;
-   background-image: url("public/images/grunge/top.png");
+   background-image: url("../../public/images/grunge/top.png");
    filter: var(--filter-top);
    background-position: top;
    background-size: cover;
@@ -198,7 +198,7 @@ section::before {
    content: "";
    position: absolute;
    inset: 0;
-   background-image: url("public/images/grunge/btm.png");
+   background-image: url("../../public/images/grunge/btm.png");
    filter: var(--filter-btm);
    background-position: bottom;
    background-size: cover;

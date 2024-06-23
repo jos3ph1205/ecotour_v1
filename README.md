@@ -66,5 +66,5 @@ sharvinjoseph.e@gmail.com
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
 [site-logo]: /public/images/logo/icon.png
-[stars-shield]: https://github.com/jos3ph1205/ecotour.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/jos3ph1205/ecotour?style=for-the-badge
 [stars-url]: https://github.com/jos3ph1205/ecotour/stargazers

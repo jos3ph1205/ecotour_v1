@@ -33,9 +33,9 @@
     My first practice website project with an advanced (or advanced for my standards) Github file and folder structure!
     <br />
     <br />
-    <a href="https://jos3ph1205.github.io/ecotour/">View Site</a>
+    <a href="https://jos3ph1205.github.io/ecotour/" target="_blank">View Site</a>
     ·
-    <a href="https://github.com/jos3ph1205/ecotour/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/jos3ph1205/ecotour/issues/new?labels=bug&template=bug-report---.md" target="_blank">Report Bug</a>
   </p>
 </div>
 

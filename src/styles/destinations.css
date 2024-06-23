@@ -2,7 +2,7 @@
 DESTINATIONS HOME
 -------------------------------------------------- */
 section#destinations-home {
-   --bg-url: url("/public/images/destinations/home.jpg");
+   --bg-url: url("../../public/images/destinations/home.jpg");
    --bg-repeat: no-repeat;
    --bg-size: cover;
    --bg-filter: brightness(0.3);
@@ -99,7 +99,7 @@ section#geography {
       translate: -50% -50%;
       height: 7em;
       aspect-ratio: 1 / 1;
-      background-image: url("/public/images/destinations/map-icon.png");
+      background-image: url("../../public/images/destinations/map-icon.png");
       background-size: contain;
       background-position: center;
       z-index: 1;
@@ -107,7 +107,7 @@ section#geography {
 }
 
 section#quote {
-   --bg-url: url("/public/images/destinations/quote.jpg");
+   --bg-url: url("../../public/images/destinations/quote.jpg");
    --bg-repeat: repeat;
    --bg-size: cover;
    --bg-filter: brightness(.6);
@@ -145,7 +145,7 @@ section#quote {
 }
 
 section#guide {
-   --bg-url: url("/public/images/destinations/guide.jpg");
+   --bg-url: url("../../public/images/destinations/guide.jpg");
    --bg-repeat: repeat;
    --bg-size: cover;
    min-height: 90svh;

@@ -2,7 +2,7 @@
 HOME
 -------------------------------------------------- */
 section#home {
-   --bg-url: url("/images/private-tours/home.jpg");
+   --bg-url: url("/public/images/private-tours/home.jpg");
    --bg-filter: brightness(0.6);
    min-height: 40svh;
    justify-content: center;
@@ -58,7 +58,7 @@ section#home {
 }
 
 section#get-started {
-   --bg-url: url("/images/private-tours/get-started.jpg");
+   --bg-url: url("/public/images/private-tours/get-started.jpg");
    --bg-filter: brightness(0.7);
    --bg-position: 0% 40%;
 

@@ -19,6 +19,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Stargazers][stars-shield]][stars-url]
+[Size][size-shield]
 
 
 <!-- PROJECT LOGO -->
@@ -68,3 +69,4 @@ sharvinjoseph.e@gmail.com
 [site-logo]: /public/images/logo/icon.png
 [stars-shield]: https://img.shields.io/github/stars/jos3ph1205/ecotour?style=for-the-badge
 [stars-url]: https://github.com/jos3ph1205/ecotour/stargazers
+[size-sheild]: https://img.shields.io/github/languages/code-size/jos3ph1205/ecotour?style=for-the-badge&label=Size

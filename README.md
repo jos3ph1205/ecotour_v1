@@ -25,9 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://raw.githubusercontent.com/jos3ph1205/ecotour/main/public/images/logo/icon.png">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+    <img src="/public/images/logo/icon.png" alt="Logo" width="80" height="80">
 
   <h3 align="center">Ecotour</h3>
 
@@ -68,3 +66,4 @@ sharvinjoseph.e@gmail.com
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
+[site-logo]: /public/images/logo/icon.png

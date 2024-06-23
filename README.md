@@ -48,7 +48,7 @@
 
 Ecotour is my first multi-page website created from image templates and reproduced as closely as possible.
 
-All images used as reference can be found in [project-materials](https://github.com/jos3ph1205/ecotour/tree/main/project-materials). All other images used on the site were either reproduced in Canva and other media editing software or found on unsplash.com and other photo & media websites.
+All images used as reference can be found in [project-materials](https://github.com/jos3ph1205/ecotour/tree/main/project-material). All other images used on the site were either reproduced in Canva and other media editing software or found on unsplash.com and other photo & media websites.
 
 
 <!-- CONTACT -->

@@ -3,7 +3,7 @@ HOME SECTION
 -------------------------------------------------- */
 section#home {
    color: white;
-   --bg-url: url("/images/home/home.jpg");
+   --bg-url: url("/public/images/home/home.jpg");
    --bg-repeat: repeat;
    --bg-size: cover;
    min-height: 100svh;
@@ -35,7 +35,7 @@ section#home {
 ABOUT SECTION
 -------------------------------------------------- */
 section#about {
-   --bg-url: url("/images/home/about.jpg");
+   --bg-url: url("/public/images/home/about.jpg");
    --bg-repeat: repeat;
    --bg-size: cover;
    min-height: 90svh;
@@ -229,7 +229,7 @@ FEATURED EXPERIENCES SECTION
 FEATURES SECTION
 -------------------------------------------------- */
 section#features {
-   --bg-url: url("/images/home/features.jpg");
+   --bg-url: url("/public/images/home/features.jpg");
    --bg-repeat: repeat;
    --bg-size: cover;
    min-height: 120svh;

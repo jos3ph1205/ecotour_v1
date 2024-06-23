@@ -19,7 +19,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Stargazers][stars-shield]][stars-url]
-[Size][size-sheild]
+![Size][size-sheild]
 
 
 <!-- PROJECT LOGO -->

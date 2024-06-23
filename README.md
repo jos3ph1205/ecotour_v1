@@ -18,7 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 
 
@@ -67,3 +66,5 @@ sharvinjoseph.e@gmail.com
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
 [site-logo]: /public/images/logo/icon.png
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/jos3ph1205/ecotour/stargazers

@@ -30,7 +30,7 @@
   <h3 align="center">Ecotour</h3>
 
   <p align="center">
-    My first practice website project with an advanced (or advanced for my standards) Github file and folder structure!
+    My first multi-page practice site and the first project i used Git bash and node on!
     <br />
     <br />
     <a href="https://jos3ph1205.github.io/ecotour/" target="_blank">View Site</a>

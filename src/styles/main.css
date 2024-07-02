@@ -45,7 +45,7 @@ ROOT
 :root {
    /* BASE COLORS */
    --clr-base-lt: hsl(0, 0%, 100%);
-   --clr-base: rgb(230, 230, 230);
+   --clr-base: hsl(0, 0%, 93%);
    --clr-base-dk: hsl(0, 0%, 18%);
    --clr-base-dkr: hsl(40, 4%, 10%);
 
@@ -72,7 +72,7 @@ ROOT
    --f-thin: 200;
    --f-light: 400;
    --f-normal: 600;
-   --f-medium: 800;
+   --f-medium: 700;
    --f-bold: 1000;
 
    /* FONT COLOR */
@@ -139,7 +139,7 @@ header {
    flex-direction: column;
    align-items: center;
    gap: 3rem;
-   padding: 5rem 8rem;
+   padding: 8rem;
 }
 section::before {
    content: "";
@@ -204,14 +204,20 @@ section::before {
    background-size: cover;
 }
 
-@keyframes btn-ripple {
-   60% {
-      width: 215%;
-      opacity: 1;
-   }
+@keyframes btn-ripple-dwn {
    100% {
-      opacity: 0;
+      opacity: 1;
       width: 235%;
+   }
+}
+@keyframes btn-ripple-up {
+   from {
+      opacity: 1;
+      width: 235%;
+   }
+   to {
+      width: 235%;
+      opacity: 0;
    }
 }
 
@@ -252,19 +258,25 @@ section::before {
    left: 0;
    top: 0;
    opacity: 0;
-   background-image: radial-gradient(hsla(0, 0%, 100%, 0.35) 37%, hsla(0, 0%, 100%, 0.5));
+   background-image: radial-gradient(hsla(0, 0%, 100%, 0.3) 38%, hsla(0, 0%, 100%, 0.8));
    width: 0%;
    aspect-ratio: 1 / 1;
    border-radius: 50%;
    z-index: -1;
-   animation: btn-ripple 0.5s ease-out;
 }
+.btn-ripple .ripple.dwn {
+   animation: btn-ripple-dwn 0.3s ease-out forwards;
+}
+.btn-ripple .ripple.up {
+   animation: btn-ripple-up 0.2s ease-out forwards;
+}
+
 .btn.invert .btn-ripple .ripple {
    background-image: radial-gradient(hsla(0, 0%, 0%, 0.12) 37%, hsla(0, 0%, 0%, 0.2));
 }
 
 .btn:hover {
-   background-color: color-mix(in srgb, var(--clr-green), white 20%);
+   background-color: color-mix(in srgb, var(--clr-green), white 10%);
 }
 .btn.invert:hover {
    background-color: color-mix(in srgb, var(--clr-green-ltr), white 40%);

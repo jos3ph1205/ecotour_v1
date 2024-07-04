@@ -266,9 +266,7 @@ section#experts {
          display: flex;
          gap: 3em;
 
-         img {
-            width: 9em;
-         }
+         
 
          .content {
             display: flex;

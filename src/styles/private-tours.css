@@ -69,6 +69,12 @@ section#get-started {
    }
 }
 
+section#get-inspired {
+   .grunge-border {
+      --filter-btm: var(--gb-base);
+   }
+}
+
 .get-started-container {
    width: 100%;
    background-color: hsla(0, 0%, 0%, .6);
@@ -194,7 +200,7 @@ section#experts {
 
    .col:nth-of-type(2) {
       .tripadvisor-review {
-         font-size: 1rem;
+         font-size: 1.3rem;
          background-color: var(--clr-base-lt);
          padding: 3ch;
          display: flex;
@@ -215,11 +221,87 @@ section#experts {
                text-align: justify;
             }
          }
+         .content::before {
+            content: "„";
+            font-size: 7em;
+            margin-top: -.7em;
+            margin-bottom: -.15em;
+            font-family: 'AbhayaLibre';
+            color: var(--clr-green-dkr);
+         }
 
          .author {
             font-size: .85em;
             font-weight: var(--f-medium);
             color: var(--clr-f-700);
+         }
+
+         .review-stats {
+            color: var(--clr-f-500);
+            font-weight: var(--f-thin);
+            display: flex;
+            align-items: center;
+            gap: 1ch; 
+
+            .stars {
+               display: flex;
+               gap: .4ch;
+
+               span {
+                  width: 2ch;
+                  aspect-ratio: 1 / 1;
+                  background-color: var(--clr-tripadvisor-primary);
+                  border-radius: 50%;
+               }
+            }
+
+            i {
+               font-size: 2em;
+               color: var(--clr-f-900);
+            }
+         }
+      }
+      .tripadvisor-info {
+         font-size: 1.2em;
+         display: flex;
+         gap: 3em;
+
+         img {
+            width: 9em;
+         }
+
+         .content {
+            display: flex;
+            flex-direction: column;
+            gap: 1ch;
+            
+
+            .name {
+               font-size: 1.4em;
+               font-weight: var(--f-normal);
+               color: var(--clr-f-700);
+            }
+
+            .stats {
+               color: var(--clr-f-500);
+               font-weight: var(--f-thin);
+               display: flex;
+               gap: inherit;
+
+               .stars {
+                  display: flex;
+                  gap: .4ch;
+
+                  span {
+                     width: 2ch;
+                     aspect-ratio: 1 / 1;
+                     background-color: var(--clr-tripadvisor-primary);
+                     border-radius: 50%;
+                  }
+               }
+
+               
+            }
          }
       }
    }
